@@ -1,0 +1,7 @@
+pandas>=2.0.0
+openpyxl>=3.0.0
+
+# 相似度检测（可选）
+rapidfuzz>=3.0.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
