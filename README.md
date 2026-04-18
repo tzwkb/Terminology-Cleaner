@@ -16,15 +16,15 @@ Interactive terminology deduplication and quality cleaning tool.
 
 ## Installation
 
-`ash
+```bash
 pip install -r requirements.txt
-`
+```
 
 ## Usage
 
-`ash
+```bash
 python main.py
-`
+```
 
 The interactive CLI will guide you through:
 1. Selecting cleaning options (case, punctuation, quality, similarity)
@@ -33,11 +33,11 @@ The interactive CLI will guide you through:
 
 ## Configuration
 
-Edit config.py to adjust default thresholds and behavior.
+Edit `config.py` to adjust default thresholds and behavior.
 
 ## Project Structure
 
-`
+```
 .
 ├── main.py                # Entry point
 ├── cleaner.py             # Core cleaning logic
@@ -46,7 +46,7 @@ Edit config.py to adjust default thresholds and behavior.
 ├── logger.py              # Logging utilities
 ├── utils.py               # Helper functions
 └── CHANGELOG.md           # Version history
-`
+```
 
 ## License
 
